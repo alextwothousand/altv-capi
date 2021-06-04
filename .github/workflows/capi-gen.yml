@@ -46,7 +46,7 @@ jobs:
         submodules: 'recursive'
     
     - name: Install ninja-build tool
-      uses: seanmiddleditch/gha-setup-ninja@v1
+      uses: seanmiddleditch/gha-setup-ninja@v3
       
     - name: Setup Node.js environment
       uses: actions/setup-node@v1.4.2
@@ -105,7 +105,7 @@ jobs:
 #     - uses: rlespinasse/github-slug-action@2.0.0
     
     - name: Install ninja-build tool
-      uses: seanmiddleditch/gha-setup-ninja@v1
+      uses: seanmiddleditch/gha-setup-ninja@v3
       
     - name: Setup Node.js environment
       uses: actions/setup-node@v1.4.2
