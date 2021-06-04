@@ -2,6 +2,7 @@ name: Build CAPI
 
 on:
   push:
+  pull_request:
 
 jobs:
   build-linux:
