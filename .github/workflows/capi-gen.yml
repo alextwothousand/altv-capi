@@ -49,7 +49,7 @@ jobs:
       uses: seanmiddleditch/gha-setup-ninja@v3
       
     - name: Setup Node.js environment
-      uses: actions/setup-node@v1.4.2
+      uses: actions/setup-node@v2.1.5
       
     # write the cmakelists file
     - run: "echo -e 'include(CMakeDependentOption)\nadd_subdirectory(altv-capi)' >> CMakeLists.txt"
@@ -108,7 +108,7 @@ jobs:
       uses: seanmiddleditch/gha-setup-ninja@v3
       
     - name: Setup Node.js environment
-      uses: actions/setup-node@v1.4.2
+      uses: actions/setup-node@v2.1.5
     
     - name: Cache LLVM chocolatey
       id: cache-llvm-choco
